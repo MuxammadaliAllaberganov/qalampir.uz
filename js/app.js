@@ -2,8 +2,8 @@
 // navbar
 
 document.getElementById('toogle_btn').addEventListener('click', () => {
-  const Nav_items = document.getElementById("items")
-  Nav_items.classList.toggle("show")
+    const Nav_items = document.getElementById("items")
+    Nav_items.classList.toggle("show")
 
 })
 
@@ -47,4 +47,3 @@ prevBtn.addEventListener('click', prevSlide);
 
 // Avtomatik slayd har 5 soniyada
 setInterval(nextSlide, 5000);
-
